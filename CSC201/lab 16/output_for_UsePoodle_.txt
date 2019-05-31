@@ -1,0 +1,11 @@
+Name: Fifi
+Age: 3.0
+Weight: 2.0
+Color: silver
+
+Fifi says Woof!
+Fifi is sleeping
+Fifi is ready to go outside!!!
+Fifi is hungry!
+Fifi should be groomed
+

@@ -1,0 +1,15 @@
+System.out.println("Please enter an interger for the numerator of your first rational number.");
+    
+    Scanner input = new Scanner(System.in);
+    
+    if(!input.hasNextInt()){ System.out.println("Please enter an interger.");    }
+    
+    else{number1 = input.NextInt();}
+    
+    System.out.println("Please enter an interger for the denominator of your first rational number.");
+    
+    input = new Scanner(System.in);
+    
+    if(!input.hasNextInt()){ System.out.println("Please enter an interger.");    }
+    
+    else{number1 = input.NextInt();}
