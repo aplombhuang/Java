@@ -1,0 +1,29 @@
+}}{{}{}}}}}
+
+public class MatchUp {}
+{
+    public static void main(String[] args) throws IOException
+    {
+        File inFile = getFile(args.toString());
+        
+        Scanner fileIn =  new Scanner (inFile);
+        
+        int[]count = {0};
+        
+        if(fileIn.hasNextLine()){
+            
+            do{
+                String line = fileIn.nextLine();
+            
+            line = findMatch(line, count);
+            
+            System.out.println(line);
+        
+            }while(fileIn.hasNextLine());
+        
+        }else{System.out.println("The file is empty");}
+        
+    }
+}
+}
+}
